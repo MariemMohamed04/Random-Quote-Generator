@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F9E5D9;
+}
+
+.container {
+  background-color: #B66164;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: 'Pacifico';
+  font-weight: bold;
+  color: white;
+}
+
+.demo {
+  color: #dca5a7;
+}
+
+p {
+  font-size: 45px;
+  font-family: 'cookie';
+  color: #F9E5D9;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  font-family: 'Pacifico';
+}
+
+button:hover {
+  background-color: #dca5a7;
+}
+
+@media only screen and (max-width: 1200px) {
+  h1 {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  p {
+    font-size: 35px;
+  }
+
+  img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 45px;
+  }
+}

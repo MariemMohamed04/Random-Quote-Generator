@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quotes App</title>
+  <link rel="icon" href="./img/butterfly-origami-paper-svgrepo-com.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="text-center d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="container p-4 rounded-5">
+      <div class="m-4 p-4 border border-2 border-white rounded-5">
+        <div class="row">
+          <div class="col-lg-2">
+            <img src="./img/bot-right.png" alt="">
+          </div>
+          <div class="col-lg-8">
+            <h1>Quote of the Day</h1>
+          </div>
+          <div class="col-lg-2">
+            <img src="./img/bot-left.png" alt="">
+          </div>
+        </div>
+        <p class="demo my-5">Press the button below to receive a random quote!</p>
+        <button class="mb-4 rounded-4 px-4 py-2 border border-2 border-white" onclick="generateQuote()">New
+          Quote</button>
+        <div id="quote">
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
